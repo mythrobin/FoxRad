@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "name": "FoxRad",
+  "description": "Designed for Music lovers. Now listeners can choose from 4 different genres: Metal, Rock, Trance & Pop.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icon16.png",
+    "48": "/img/icon48.png",
+	"60": "/img/icon60.png",
+    "128": "/img/icon128.png"
+   },
+  "developer": {
+    "name": "Robin Mehdee",
+    "url": "http://www.robinz.org"
+  },
+  
+	"permissions": {
+	"audio-channel-content":{
+    "description":"Use the audio channel for the music player"
+  }
+},
+  
+  "chrome": {
+        "navigation": true
+    },
+  
+  "default_locale": "en"
+  
+  
+}
